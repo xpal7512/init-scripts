@@ -118,11 +118,11 @@ initGUISoftware() {
 }
 
 main() {
-    echo "准备前端开发环境，安装必备的软件"
+    echo -e "\033[41;37m准备前端开发环境中...\033[0m"
     useZshProfile
     initCLISoftware
     initGUISoftware
-    echo "已经完成了，快试试吧"
+    echo -e "\033[41;37m已经完成了，赶快试试吧\033[0m"
 }
 
 main

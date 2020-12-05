@@ -1,7 +1,9 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 # @author   yanglifeng
 # @date     20201206
 # @platform Apple M1 - macOS Big Sur 11.0.1 (20B29) 
+
+{
 
 set -o pipefail
 
@@ -124,3 +126,5 @@ main() {
 }
 
 main
+
+}

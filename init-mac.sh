@@ -96,8 +96,6 @@ initCLISoftware() {
 
     # 修改npm配置指向公司源
     npm config set registry 'https://registry.npm.taobao.org/' # 三方包使用淘宝npm，更新比较及时
-    npm config set '@youzan:registry' 'http://registry.npm.qima-inc.com/' # @youzan的二方包使用公司npm
-    npm config set '@qima-inc:registry' 'http://registry.npm.qima-inc.com/' # @qima-inc的二方包使用公司ynpm
 }
 
 initGUISoftware() {
